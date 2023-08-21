@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className="lg:sticky  lg:top-0 lg:z-20 hidden  lg:block">
       <div className="flex justify-between items-center px-5  bg-primary">
         <div className="hidden md:block">
-          <p className="text-white">Opening Time : 8:30 AM - 9:30 PM</p>
+          <p className="text-white">Opening Time : 8:30 AM - 9:30 PM | Phone: 01787878743</p>
         </div>
         <div className="flex gap-5 items-center">
   <div className="border-r-2 text-white px-4 flex items-center hover:underline underline-offset-4 cursor-pointer hover:font-semibold my-2">

@@ -30,7 +30,7 @@ const Footer = () => {
   ];
   return (
     <div>
-      <footer className="text-white bg-primary  px-4 py-5  mx-auto md:px-8">
+      <footer className="text-white bg-primary  px-4 py-5 mt-1 mx-auto md:px-8">
         <div className="max-w-lg sm:mx-auto sm:text-center">
           <img
             src="https://www.floatui.com/logo.svg"

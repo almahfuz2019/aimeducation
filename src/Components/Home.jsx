@@ -1,5 +1,7 @@
-import CreateWithUs from "./CreateWithUs";
+import Contact from "./Contact";
+import Countrys from "./Countrys";
 import FAQ from "./FAQ";
+import Feature from "./Feature";
 import LeandingBanner from "./LeandingBanner";
 import OurWorksAmount from "./OurWorksAmount";
 import StudentReview from "./StudentReview";
@@ -9,9 +11,11 @@ const Home = () => {
           <div>
                <LeandingBanner/>
                <OurWorksAmount/>
+               <Countrys/>
+               <Feature/>
                <StudentReview/>
                <FAQ/>
-               <CreateWithUs/>
+               <Contact/>
           </div>
      );
 };
