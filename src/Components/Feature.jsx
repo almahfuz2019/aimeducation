@@ -2,18 +2,18 @@ const Feature = () => {
   return (
     <div>
       <section className="bg-white glass ">
-        <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
-          <div>
-            <h2 className="text-3xl font-bold text-primary tracki text-center sm:text-5xl ">
-              Aliquip definiebas ad est
+        <div className="container max-w-xl p-6 py-12 mx-auto space-y-12 lg:px-8 lg:max-w-7xl">
+          <div className=" text-white py-3">
+            <h2 className="text-3xl font-bold  tracki text-center sm:text-4xl mb-3 md:text-white text-primary uppercase">
+             <span className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70 px-5 rounded-md text-center mb-3 text-white"> Aliquip definiebas </span>
             </h2>
-            <p className="max-w-3xl mx-auto mt-4 text-xl text-center ">
-              Quando cetero his ne, eum admodum sapientem ut.
+            <p className="md:max-w-4xl mx-auto mt-1 text-black text-center ">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non, voluptas assumenda explicabo quasi id, cum libero consequuntur vero iure recusandae neque, quam dolorum doloremque rerum velit voluptatem ab odio.
             </p>
           </div>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
-              <h3 className="text-2xl font-bold tracki sm:text-3xl text-primary">
+              <h3 className="text-xl sm:text-2xl font-bold tracki md:text-3xl text-primary uppercase underline underline-offset-2">
                 Ad vix debet docendi
               </h3>
               <p className="mt-3 text-lg ">
@@ -21,10 +21,10 @@ const Feature = () => {
                 etiam regione ut, persius eripuit quo id. Sit te euismod
                 tacimates.
               </p>
-              <div className="mt-12 space-y-12">
+              <div className="mt-10 space-y-12">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md bg-primary text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -54,7 +54,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md bg-primary text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -84,7 +84,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md bg-primary text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -125,7 +125,7 @@ const Feature = () => {
           <div>
             <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
               <div className="lg:col-start-2">
-                <h3 className="text-2xl font-bold tracki sm:text-3xl text-primary">
+                <h3 className="text-xl sm:text-2xl font-bold tracki md:text-3xl text-primary uppercase  underline underline-offset-2">
                   Eam nibh gloriatur ex
                 </h3>
                 <p className="mt-3 text-lg ">
@@ -133,10 +133,10 @@ const Feature = () => {
                   te latine theophrastus. Ea his tale nibh dissentias, mei
                   exerci tamquam euripidis cu.
                 </p>
-                <div className="mt-12 space-y-12">
+                <div className="mt-10 space-y-12">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md bg-primary text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -166,7 +166,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md bg-primary text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -196,7 +196,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md bg-primary text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

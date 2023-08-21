@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 .active{
-     background-color: #113C66 !important;
+     background-color: #284E73 !important;
      font-weight: 700 !important;
      border-radius: 0 !important;
      border-radius: 6px !important;

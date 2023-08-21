@@ -1,16 +1,16 @@
 import { BsPlus, BsDash } from "react-icons/bs";
 const FAQ = () => {
   return (
-    <div className=" bg-primary py-10 px-3">
-      <p className="p-2 text-sm font-medium tracki text-center uppercase text-white">
+    <div className="  bg-gradient-to-br from-primary/70 via-primary to-primary/70 py-10 px-3">
+      <p className="p-2 text-sm font-medium tracki text-center uppercase  text-white">
         How it works
       </p>
-      <h2 className="mb-12 text-4xl font-bold leadi text-center sm:text-5xl text-white">
+      <h2 className="mb-12  md:text-4xl font-bold leadi text-center text-3xl text-white uppercase">
         Frequently Asked Questions
       </h2>
       <details className="group rounded-lg backdrop-blur bg-white/10 p-4 mb-2" open>
         <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-white">
-          <h2 className="font-medium glass px-2  rounded-md">
+          <h2 className="font-medium glass px-2   rounded-md">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </h2>
 

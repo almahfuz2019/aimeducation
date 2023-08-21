@@ -1,15 +1,15 @@
 const StudentReview = () => {
   return (
     <div>
-      <section className="bg-primary text-gray-100 my-1">
+      <section className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70   text-gray-100 my-1">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
             <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-              <h2 className="text-4xl font-bold text-white">
+              <h2 className="text-3xl md:text-4xl uppercase underline underline-offset-4 font-bold text-white">
                 {" "}
                 Our Happy Students
               </h2>
-              <p className="dark:text-gray-400">
+              <p className="dark:text-gray-100 text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
                 quod commodi nulla ducimus perspiciatis tempore reiciendis
                 eligendi temporibus? Non tempore molestias reiciendis
@@ -28,8 +28,8 @@ const StudentReview = () => {
             <div className="p-6 xl:col-span-3">
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="grid content-center gap-4">
-                  <div className="p-6 rounded shadow-md bg-gray-100">
-                    <p className="text-gray-800">
+                  <div className="p-6 rounded  glass">
+                    <p className="text-gray-100">
                       An audire commodo habemus cum. Ne sed corrumpit
                       repudiandae. Tota aliquip democritum pro in, nec
                       democritum intellegam ne. Propriae volutpat dissentiet ea
@@ -45,14 +45,14 @@ const StudentReview = () => {
                       />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm dark:text-gray-400">
+                        <p className="text-sm text-gray-300">
                           CTO of Company Co.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="p-6 rounded shadow-md bg-gray-100">
-                    <p className="text-gray-800">
+                  <div className="p-6 rounded   glass">
+                    <p className="text-gray-100">
                       Sit wisi sapientem ut, pri civibus temporibus voluptatibus
                       et, ius cu hinc fabulas. Nam meliore minimum et, regione
                       convenire cum id. Ex pro eros mucius consectetuer, pro
@@ -66,7 +66,7 @@ const StudentReview = () => {
                       />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm dark:text-gray-400">
+                        <p className="text-sm text-gray-300">
                           CTO of Company Co.
                         </p>
                       </div>
@@ -74,8 +74,8 @@ const StudentReview = () => {
                   </div>
                 </div>
                 <div className="grid content-center gap-4">
-                  <div className="p-6 rounded shadow-md bg-gray-100">
-                    <p className="text-gray-800">
+                  <div className="p-6 rounded  glass">
+                    <p className="text-gray-100">
                       Putant omnium elaboraret per ut. Id dicta tritani nominavi
                       quo, mea id justo errem elaboraret. Agam mollis scripserit
                       ea his, ut nec postea verear persecuti. Ea noster senserit
@@ -91,14 +91,14 @@ const StudentReview = () => {
                       />
                       <div>
                         <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm dark:text-gray-400">
+                        <p className="text-sm text-gray-300">
                           CTO of Company Co.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="p-6 rounded shadow-md bg-gray-100">
-                    <p className="text-gray-800">
+                  <div className="p-6 rounded glass  ">
+                    <p className="text-gray-100">
                       Te omnes virtute volutpat sed. Ei esse eros interesset
                       vel, ei populo denique ocurreret vix, eu cum pertinax
                       mandamus vituperatoribus. Solum nihil luptatum per ex, ei
@@ -112,13 +112,13 @@ const StudentReview = () => {
                       <img
                         src="https://source.unsplash.com/50x50/?portrait?4"
                         alt=""
-                        className="w-12 h-12 bg-center bg-cover rounded-full dark:bg-gray-500"
+                        className="w-12 h-12 bg-center bg-cover rounded-full "
                       />
                       <div>
-                        <p className="text-lg font-semibold text-primary">
+                        <p className="text-lg font-semibold text-white">
                           Leroy Jenkins
                         </p>
-                        <p className="text-sm text-primary">
+                        <p className="text-sm text-gray-300">
                           CTO of Company Co.
                         </p>
                       </div>

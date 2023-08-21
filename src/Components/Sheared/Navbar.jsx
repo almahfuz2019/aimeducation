@@ -1,8 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from '../../../public/logo.png'
 import { FaMapMarkerAlt } from "react-icons/fa";
 const Navbar = () => {
-     
   let navItems = (
     <>
       <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100 ">
@@ -21,19 +19,23 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="lg:sticky  lg:top-0 lg:z-20 hidden  lg:block">
-      <div className="flex justify-between items-center px-5  bg-primary">
+    // <div className="lg:sticky  lg:top-0 lg:z-20 hidden  lg:block">
+    <div className="lg:z-20 hidden  lg:block">
+      <div className="flex justify-between items-center px-5   bg-gradient-to-br from-primary via-primary to-primary">
         <div className="hidden md:block">
-          <p className="text-white">Opening Time : 8:30 AM - 9:30 PM | Phone: 01787878743</p>
+          <p className="text-white">
+            Opening Time : 8:30 AM - 9:30 PM | Phone: 01787878743
+          </p>
         </div>
         <div className="flex gap-5 items-center">
-  <div className="border-r-2 text-white px-4 flex items-center hover:underline underline-offset-4 cursor-pointer hover:font-semibold my-2">
-    <FaMapMarkerAlt className="mr-2 " />
-    Our Location
-  </div>
-  <button className="btn btn-sm btn-white border-1 border-black text-primary">Apply Now</button>
-</div>
-
+          <div className="border-r-2 text-white px-4 flex items-center hover:underline underline-offset-4 cursor-pointer hover:font-semibold my-2">
+            <FaMapMarkerAlt className="mr-2 " />
+            Our Location
+          </div>
+          <button className="btn btn-sm btn-white border-1 border-black text-primary">
+            Apply Now
+          </button>
+        </div>
       </div>
       <div className="navbar py-0 bg-white border-b-4 border-primary">
         <div className="navbar-start ">
@@ -62,11 +64,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost normal-case text-xl logo">
-            <img
-              className="h-14  "
-              src={logo}
-              alt="logo"
-            />
+            <img className="h-14  " src="https://www.floatui.com/logo.svg" alt="logo" />
           </Link>
         </div>
         <div className="navbar-center hidden md:flex">

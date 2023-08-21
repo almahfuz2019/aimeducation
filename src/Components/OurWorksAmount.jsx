@@ -1,10 +1,14 @@
+
 const OurWorksAmount = () => {
+
   return (
     <div>
-      <section className="p-6 shadow-white shadow bg-primary dark:text-gray-100">
-        <div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 glass dark:text-gray-100">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
+      <section className="p-3 md:p-4 shadow-white shadow bg-primary  ">
+
+        <div className="container grid grid-cols-2 sm:gap-6 gap-2 mx-auto sm:grid-cols-2 xl:grid-cols-4">
+      
+          <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
+            <div className="sm:block hidden justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -16,13 +20,13 @@ const OurWorksAmount = () => {
                 <path d="M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z"></path>
               </svg>
             </div>
-            <div className="flex flex-col justify-center align-middle">
+            <div className="flex flex-col justify-center align-middle ">
               <p className="text-3xl font-semibold leadi">200</p>
               <p className="capitalize">Orders</p>
             </div>
           </div>
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 glass dark:text-gray-100">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
+          <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
+            <div className="sm:block hidden justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -40,8 +44,8 @@ const OurWorksAmount = () => {
               <p className="capitalize">New customers</p>
             </div>
           </div>
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 glass dark:text-gray-100">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
+          <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
+            <div className="sm:block hidden justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
@@ -61,8 +65,8 @@ const OurWorksAmount = () => {
               <p className="capitalize">Growth</p>
             </div>
           </div>
-          <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 glass dark:text-gray-100">
-            <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
+          <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
+            <div className="sm:block hidden justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
