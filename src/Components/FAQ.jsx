@@ -5,12 +5,12 @@ const FAQ = () => {
       <p className="p-2 text-sm font-medium tracki text-center uppercase  text-white">
         How it works
       </p>
-      <h2 className="mb-12  md:text-4xl font-bold leadi text-center text-3xl text-white uppercase">
+      <h2 className="mb-12  md:text-4xl font-extrabold leadi text-center text-3xl text-white uppercase">
         Frequently Asked Questions
       </h2>
-      <details className="group rounded-lg backdrop-blur bg-white/10 p-4 mb-2" open>
+      <details className="group rounded-md backdrop-blur bg-white/10 py-3 px-2 mb-2" open>
         <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-white">
-          <h2 className="font-medium glass px-2   rounded-md">
+          <h2 className="text-lg underline font-medium underline-offset-2 px-2   rounded-md">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </h2>
 
@@ -27,9 +27,9 @@ const FAQ = () => {
           distinctio corporis earum similique!
         </p>
       </details>
-      <details className="group rounded-lg backdrop-blur bg-white/10 p-4 mb-2">
+      <details className="group rounded-md backdrop-blur bg-white/10 py-2 px-1 mb-2">
         <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-white">
-          <h2 className="font-medium glass px-2  rounded-md">
+          <h2 className="text-lg underline font-medium underline-offset-2 px-2   rounded-md">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </h2>
 
@@ -46,9 +46,9 @@ const FAQ = () => {
           distinctio corporis earum similique!
         </p>
       </details>
-      <details className="group rounded-lg backdrop-blur bg-white/10 p-4 mb-2">
+      <details className="group rounded-md backdrop-blur bg-white/10 py-2 px-1 mb-2">
         <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-white">
-          <h2 className="font-medium glass px-2  rounded-md">
+          <h2 className="text-lg underline font-medium underline-offset-2 px-2   rounded-md">
             Lorem ipsum dolor sit amet consectetur adipisicing?
           </h2>
 

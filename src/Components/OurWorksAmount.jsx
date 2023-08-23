@@ -21,8 +21,8 @@ const OurWorksAmount = () => {
               </svg>
             </div>
             <div className="flex flex-col justify-center align-middle ">
-              <p className="text-3xl font-semibold leadi">200</p>
-              <p className="capitalize">Orders</p>
+              <p className="text-3xl font-semibold leadi">200+</p>
+              <p className="capitalize">successful admission</p>
             </div>
           </div>
           <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
@@ -40,8 +40,8 @@ const OurWorksAmount = () => {
               </svg>
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leadi">7500</p>
-              <p className="capitalize">New customers</p>
+              <p className="text-3xl font-semibold leadi">734+</p>
+              <p className="capitalize">Application Submitted</p>
             </div>
           </div>
           <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
@@ -61,8 +61,8 @@ const OurWorksAmount = () => {
               </svg>
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leadi">172%</p>
-              <p className="capitalize">Growth</p>
+              <p className="text-3xl font-semibold leadi">172+</p>
+              <p className="capitalize">Students Served</p>
             </div>
           </div>
           <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
@@ -77,8 +77,8 @@ const OurWorksAmount = () => {
               </svg>
             </div>
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leadi">17%</p>
-              <p className="capitalize">Bounce rate</p>
+              <p className="text-3xl font-semibold leadi">17+</p>
+              <p className="capitalize">Nationalities</p>
             </div>
           </div>
         </div>

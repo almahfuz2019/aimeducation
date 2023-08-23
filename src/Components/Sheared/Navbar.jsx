@@ -1,5 +1,7 @@
 import { Link, NavLink } from "react-router-dom";
 import { FaMapMarkerAlt } from "react-icons/fa";
+
+import Marquee from "react-fast-marquee";
 const Navbar = () => {
   let navItems = (
     <>
@@ -20,21 +22,24 @@ const Navbar = () => {
   );
   return (
     // <div className="lg:sticky  lg:top-0 lg:z-20 hidden  lg:block">
-    <div className="lg:z-20 hidden  lg:block">
-      <div className="flex justify-between items-center px-5   bg-gradient-to-br from-primary via-primary to-primary">
+    <div className="lg:z-50 hidden  lg:block">
+      <div className="flex justify-between items-center px-3   bg-gradient-to-br from-primary via-primary to-primary">
         <div className="hidden md:block">
-          <p className="text-white">
-            Opening Time : 8:30 AM - 9:30 PM | Phone: 01787878743
-          </p>
+          <Marquee
+            pauseOnHover="true"
+            className="text-white uppercase cursor-pointer"
+          >
+            Opening Time : 8:30 AM - 9:30 PM | Phone: +8801787878743
+          </Marquee>
         </div>
         <div className="flex gap-5 items-center">
           <div className="border-r-2 text-white px-4 flex items-center hover:underline underline-offset-4 cursor-pointer hover:font-semibold my-2">
             <FaMapMarkerAlt className="mr-2 " />
             Our Location
           </div>
-          <button className="btn btn-sm btn-white border-1 border-black text-primary">
+          <Link to="/apply" className="btn btn-sm btn-white  text-primary">
             Apply Now
-          </button>
+          </Link>
         </div>
       </div>
       <div className="navbar py-0 bg-white border-b-4 border-primary">
@@ -64,7 +69,11 @@ const Navbar = () => {
             </ul>
           </div>
           <Link to="/" className="btn btn-ghost normal-case text-xl logo">
-            <img className="h-14  " src="https://www.floatui.com/logo.svg" alt="logo" />
+            <img
+              className="h-14  "
+              src="https://www.floatui.com/logo.svg"
+              alt="logo"
+            />
           </Link>
         </div>
         <div className="navbar-center hidden md:flex">
@@ -77,7 +86,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end flex">
+        <div className="navbar-end flex z-50">
           <div className="">
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="">
@@ -91,7 +100,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabIndex={0}
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border border-primary border-opacity-30"
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border border-primary z-50 border-opacity-30"
               >
                 <li>
                   <NavLink to="/deshboard">Dashboard</NavLink>
@@ -99,7 +108,7 @@ const Navbar = () => {
                 <li>
                   <button>Sign out</button>
                 </li>
-                :
+
                 <li className="">
                   {" "}
                   <NavLink to="/login">Login</NavLink>

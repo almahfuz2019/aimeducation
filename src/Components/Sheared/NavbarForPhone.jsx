@@ -26,7 +26,7 @@ const NavbarForPhone = () => {
   );
   return (
     <div className=" lg:hidden">
-      <div className="flex justify-between items-center my-1 border-b-2 border-primary pb-1">
+      <div className="flex justify-between items-center my-1 border-b-4 border-primary pb-1">
         <Marquee pauseOnHover="true" className="mr-2  bg-primary">
           <p className="font-semibold mr-2 text-white">
             Opening Time : 8:30 AM - 9:30 PM | Phone: 01787878743

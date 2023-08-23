@@ -1,14 +1,19 @@
 const StudentReview = () => {
   return (
     <div>
-      <section className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70   text-gray-100 my-1">
+      <section className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70   text-gray-100 my-2">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
-            <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-              <h2 className="text-3xl md:text-4xl uppercase underline underline-offset-4 font-bold text-white">
+            <div className="max-w-2xl mx-auto   text-center xl:col-span-2 xl:text-left">
+              <h2 className="text-3xl md:text-4xl uppercase  font-extrabold text-white">
                 {" "}
                 Our Happy Students
               </h2>
+              <div className=" mb-4">
+                <span className="inline-block w-40 h-1 bg-white rounded-full"></span>
+                <span className="inline-block w-3 h-1 ml-1 bg-white rounded-full"></span>
+                <span className="inline-block w-1 h-1 ml-1 bg-white rounded-full"></span>
+              </div>
               <p className="dark:text-gray-100 text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
                 quod commodi nulla ducimus perspiciatis tempore reiciendis

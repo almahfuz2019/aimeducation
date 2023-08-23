@@ -1,11 +1,11 @@
 const Feature = () => {
   return (
     <div>
-      <section className="bg-white glass ">
-        <div className="container max-w-xl p-6 py-12 mx-auto space-y-12 lg:px-8 lg:max-w-7xl">
+      <section className="bg-white ">
+        <div className="container max-w-xl  py-12 mx-auto space-y-12  lg:max-w-7xl">
           <div className=" text-white py-3">
             <h2 className="text-3xl font-bold  tracki text-center sm:text-4xl mb-3 md:text-white text-primary uppercase">
-             <span className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70 px-5 rounded-md text-center mb-3 text-white"> Aliquip definiebas </span>
+             <span className=" bg-primary px-5 rounded-md text-center mb-3 text-white"> Aliquip definiebas </span>
             </h2>
             <p className="md:max-w-4xl mx-auto mt-1 text-black text-center ">
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi non, voluptas assumenda explicabo quasi id, cum libero consequuntur vero iure recusandae neque, quam dolorum doloremque rerum velit voluptatem ab odio.
@@ -24,7 +24,7 @@ const Feature = () => {
               <div className="mt-10 space-y-12">
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-primary text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -54,7 +54,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-primary text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -84,7 +84,7 @@ const Feature = () => {
                 </div>
                 <div className="flex">
                   <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
+                    <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-primary text-white">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         fill="none"
@@ -113,12 +113,12 @@ const Feature = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div aria-hidden="true" className="mt-10 lg:mt-0">
+            </div> 
+            <div aria-hidden="true" className="mt-10 lg:mt-0 ">
               <img
-                src="https://source.unsplash.com/random/360x480"
+                src="https://images.pexels.com/photos/731217/pexels-photo-731217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
-                className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+                className="mx-auto rounded-lg shadow-lg "
               />
             </div>
           </div>
@@ -136,7 +136,7 @@ const Feature = () => {
                 <div className="mt-10 space-y-12">
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-primary text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -166,7 +166,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-primary text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -196,7 +196,7 @@ const Feature = () => {
                   </div>
                   <div className="flex">
                     <div className="flex-shrink-0">
-                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-gradient-to-br from-primary/70 via-primary to-primary/70 text-white">
+                      <div className="flex items-center justify-center w-12 h-12 rounded-md  bg-primary text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -228,9 +228,9 @@ const Feature = () => {
               </div>
               <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
                 <img
-                  src="https://source.unsplash.com/random/361x481"
+                  src="https://images.pexels.com/photos/4353813/pexels-photo-4353813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                   alt=""
-                  className="mx-auto rounded-lg shadow-lg dark:bg-gray-500"
+                  className="mx-auto rounded-lg shadow-lg border-5 border-black"
                 />
               </div>
             </div>
