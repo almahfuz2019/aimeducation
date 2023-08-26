@@ -5,18 +5,18 @@ import Marquee from "react-fast-marquee";
 const Navbar = () => {
   let navItems = (
     <>
-      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100 ">
-        <NavLink to="/">Home</NavLink>
+      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100  ">
+        <NavLink className="text-md" to="/">Home</NavLink>
       </li>
 
-      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100">
-        <NavLink to="/about">About US</NavLink>
+      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100 ">
+        <NavLink className="text-md" to="/about">About US</NavLink>
       </li>
-      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100">
-        <NavLink to="/contact">Contact US</NavLink>
+      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100 ">
+        <NavLink className="text-md" to="/contact">Contact US</NavLink>
       </li>
-      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100">
-        <NavLink to="/trams-and-condition">Terms and Condition</NavLink>
+      <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100 ">
+        <NavLink className="text-md" to="/apply">Apply Now</NavLink>
       </li>
     </>
   );
@@ -33,10 +33,10 @@ const Navbar = () => {
           </Marquee>
         </div>
         <div className="flex gap-5 items-center">
-          <div className="border-r-2 text-white px-4 flex items-center hover:underline underline-offset-4 cursor-pointer hover:font-semibold my-2">
+          <Link to="/contact" className="border-r-2 text-white px-4 flex items-center hover:underline underline-offset-4 cursor-pointer hover:font-semibold my-2">
             <FaMapMarkerAlt className="mr-2 " />
             Our Location
-          </div>
+          </Link>
           <Link to="/apply" className="btn btn-sm btn-white  text-primary">
             Apply Now
           </Link>
@@ -79,9 +79,9 @@ const Navbar = () => {
         <div className="navbar-center hidden md:flex">
           <ul className="menu menu-horizontal px-1">
             {navItems}
-            <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100">
+            <li className="relative font-medium  before:absolute before:-bottom-1 before:h-0.5 before:w-full before:origin-left before:scale-x-0 before:bg-primary before:transition hover:before:scale-100 ">
               {" "}
-              <NavLink to="/login">Login</NavLink>
+              <NavLink className="text-md" to="/login">Login</NavLink>
             </li>
           </ul>
         </div>
@@ -103,7 +103,7 @@ const Navbar = () => {
                 className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 border border-primary z-50 border-opacity-30"
               >
                 <li>
-                  <NavLink to="/deshboard">Dashboard</NavLink>
+                  <NavLink className="text-md" to="/deshboard">Dashboard</NavLink>
                 </li>
                 <li>
                   <button>Sign out</button>
@@ -111,7 +111,7 @@ const Navbar = () => {
 
                 <li className="">
                   {" "}
-                  <NavLink to="/login">Login</NavLink>
+                  <NavLink className="text-md" to="/login">Login</NavLink>
                 </li>
               </ul>
             </div>

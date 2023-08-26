@@ -1,7 +1,7 @@
 const StudentReview = () => {
   return (
     <div>
-      <section className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70   text-gray-100 my-2">
+      <section className=" bg-gradient-to-br from-primary/70 via-primary to-primary/70   text-gray-100 my-2 mx-2 md:mx-4 rounded-lg">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
             <div className="max-w-2xl mx-auto   text-center xl:col-span-2 xl:text-left">

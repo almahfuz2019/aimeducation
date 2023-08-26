@@ -1,12 +1,8 @@
-
 const OurWorksAmount = () => {
-
   return (
     <div>
-      <section className="p-3 md:p-4 shadow-white shadow bg-primary  ">
-
+      <section className="p-3 md:p-4 shadow-white shadow bg-primary mx-2 sm:mx-2 mt-2 md:mx-4 rounded-lg">
         <div className="container grid grid-cols-2 sm:gap-6 gap-2 mx-auto sm:grid-cols-2 xl:grid-cols-4">
-      
           <div className=" p-4 space-x-4 md:flex flex-none rounded-lg md:space-x-6 glass text-gray-100">
             <div className="sm:block hidden justify-center p-2 align-middle rounded-lg sm:p-4 bg-white">
               <svg

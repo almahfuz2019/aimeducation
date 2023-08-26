@@ -1,11 +1,11 @@
 const UserDataTable = () => {
   return (
-    <div>
-      <div className="container p-2 mx-auto  text-white mt-4">
-        <div className="overflow-x-auto">
+    <div className=" ">
+      <div className="container  p-2 mx-auto  text-white  ">
+        <div className="overflow-x-auto ">
           <table className="min-w-full text-xs">
            
-            <thead className="bg-primary border-b-2">
+            <thead className="bg-primary   border-b-2">
               <tr className="text-left">
                 <th className="p-3">Invoice #</th>
                 <th className="p-3">Client</th>

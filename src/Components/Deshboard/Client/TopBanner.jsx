@@ -13,7 +13,10 @@ const TopBanner = () => {
                    Here is what’s happening with your projects today:
                  </p>
                </div>
+               <div className="font-semibold text-white">
+                <p>Date: 20-12-2023 | SUNDAY</p></div>
              </div>
+           {/* <progress className="progress  cursor-progress bg-whtie text-whtie progress-accent  mx-4"></progress> */}
            </div>
          </header>
        </div>

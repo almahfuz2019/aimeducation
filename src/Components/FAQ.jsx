@@ -1,7 +1,7 @@
 import { BsPlus, BsDash } from "react-icons/bs";
 const FAQ = () => {
   return (
-    <div className="  bg-gradient-to-br from-primary/70 via-primary to-primary/70 py-10 px-3">
+    <div className="  bg-gradient-to-br from-primary/70 via-primary to-primary/70 py-10 px-3 mx-2 md:mx-4 rounded-lg">
       <p className="p-2 text-sm font-medium tracki text-center uppercase  text-white">
         How it works
       </p>

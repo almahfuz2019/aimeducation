@@ -1,7 +1,7 @@
 const Feature = () => {
   return (
     <div>
-      <section className="bg-white ">
+      <section className="bg-white mx-2 ">
         <div className="container max-w-xl  py-12 mx-auto space-y-12  lg:max-w-7xl">
           <div className=" text-white py-3">
             <h2 className="text-3xl font-bold  tracki text-center sm:text-4xl mb-3 md:text-white text-primary uppercase">

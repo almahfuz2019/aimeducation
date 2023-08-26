@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 const Countrys = () => {
   return (
     // <Marquee  pauseOnHover="true" pauseOnClick="true" speed="100">
-    <>
-      <h2 className="text-3xl font-extrabold text-primary tracki text-center sm:text-4xl mt-10 mb-3 uppercase ">
+    <div className="mx-2 md:mx-2">
+      <h2 className="text-3xl font-extrabold text-primary tracki text-center sm:text-4xl mt-10 mb-3 uppercase  ">
         Aliquip definiebas
       </h2>
 
@@ -111,7 +111,7 @@ const Countrys = () => {
         </div>
         
       </div>
-    </>
+    </div>
   );
 };
 

@@ -9,9 +9,12 @@ import Login from "./Components/Authentication/Login";
 import UserDataInputForm from "./Components/UserDataInputForm";
 import CountryDetails from "./Components/CountryDetails";
 import About from "./Components/About";
+import Contact from "./Components/Contact";
+import BasicInfo from "./Components/Deshboard/Client/Pages/BasicInfo";
+import AdminBasicInfo from "./Components/Deshboard/Admin/AdminBasicInfo";
 function App() {
   return (
-    <>
+    <div>
       <Navbar />
       <NavbarForPhone />
       <Routes>
@@ -19,11 +22,15 @@ function App() {
         <Route path="/apply" element={<UserDataInputForm />} />
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/details/:id" element={<CountryDetails />} />
-        <Route path="/deshboard" element={<DeshboardHome />} />
+        <Route path="/deshboard" element={<DeshboardHome />}>
+          <Route index element={<BasicInfo />} />
+          <Route path="admin-basic-info" element={<AdminBasicInfo />} />
+        </Route>
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }
 

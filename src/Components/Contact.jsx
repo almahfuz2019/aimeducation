@@ -1,8 +1,8 @@
 
 const Contact = () => {
      return (
-          <div>
-                 <div className="mt-12 mb-5 ">
+          <div className="mx-2 mb-2 md:mx-4 ">
+                 <div className="mt-12  mb-5  ">
                  <h2 className="text-3xl font-bold text-primary tracki text-center md:text-4xl mt-7 uppercase  mb-3">
               Our Location
             </h2>
@@ -11,7 +11,7 @@ const Contact = () => {
             </p>
           </div>
        <section className="text-white body-font relative ">
-  <div className="absolute inset-0 border-t-4 border-primary">
+  <div className="absolute inset-0 border-t-4 border-primary rounded-lg">
     <iframe  marginHeight="0" marginWidth="0" title="map" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d238350.24003385997!2d91.80934815528343!3d24.925214354262504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d24.8962036!2d91.8745886!4m5!1s0x3750552bc71c899d%3A0x804e438bcc32b390!2smetropolitan%20university%20google%20map!3m2!1d24.9301381!2d91.9730172!5e0!3m2!1sbn!2sbd!4v1684763292015!5m2!1sbn!2sbd" width="100%" height="100%" frameBorder="0"></iframe>
   
   </div>
