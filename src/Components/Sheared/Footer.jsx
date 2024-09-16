@@ -1,97 +1,132 @@
-/* eslint-disable react/no-unknown-property */
-import { AiFillTwitterCircle, AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-const Footer = () => {
-  const footerNavs = [
-    {
-      href: "javascript:void()",
-      name: "About",
-    },
-    {
-      href: "javascript:void()",
-      name: "Blog",
-    },
-    {
-      href: "javascript:void()",
-      name: "",
-    },
-    {
-      href: "javascript:void()",
-      name: "Team",
-    },
-    {
-      href: "javascript:void()",
-      name: "Careers",
-    },
+// Footer.jsx
 
+import React from "react";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaInstagram,
+} from "react-icons/fa";
+
+/**
+ * Footer Component
+ *
+ * This component renders the footer section of the website, including
+ * company information and social media links. It is fully responsive
+ * and accessible, utilizing Tailwind CSS for styling with a white background.
+ */
+const Footer = () => {
+  // Array of social media platforms with their respective icons and links
+  const socialMedia = [
     {
-      href: "javascript:void()",
-      name: "Suuport",
+      name: "Facebook",
+      icon: <FaFacebookF />,
+      href: "https://www.facebook.com",
+    },
+    {
+      name: "Twitter",
+      icon: <FaTwitter />,
+      href: "https://www.twitter.com",
+    },
+    {
+      name: "LinkedIn",
+      icon: <FaLinkedinIn />,
+      href: "https://www.linkedin.com",
+    },
+    {
+      name: "Instagram",
+      icon: <FaInstagram />,
+      href: "https://www.instagram.com",
     },
   ];
+
   return (
-    <div>
-      <footer className="text-white bg-gradient-to-br from-primary/70 via-primary to-primary/70  px-4 py-5 z-50   md:px-8 mx-2 md:mx-4 mt-4 rounded-t-lg">
-        <div className="max-w-lg sm:mx-auto sm:text-center">
-          <img
-            src="https://www.floatui.com/logo.svg"
-            className="w-32 sm:mx-auto text-white bg-white px-4"
-          />
-          <p className="leading-relaxed mt-2 text-[15px]">
-            Lorem Ipsum has been the industrys standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book.
-          </p>
-        </div>
-        <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
-          {footerNavs.map((item, idx) => (
-            <li key="" className=" hover:text-gray-800">
-              <a key={idx} href={item.href}>
-                {item.name}
+    <footer className="bg-white text-gray-700 py-8">
+      <div className="container mx-auto px-4">
+        {/* Top Section: Logo and Social Media Links */}
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          {/* Logo and Copyright */}
+          <div className="flex items-center mb-4 md:mb-0">
+            {/* Company Logo */}
+           
+            {/* Copyright */}
+            <p>© {new Date().getFullYear()} - All rights reserved</p>
+          </div>
+
+          {/* Social Media Links */}
+          <nav className="flex space-x-4">
+            {socialMedia.map((platform) => (
+              <a
+                key={platform.name}
+                href={platform.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={platform.name}
+                className="text-gray-500 hover:text-primary transition-colors duration-200"
+              >
+                <span className="sr-only">{platform.name}</span>
+                {platform.icon}
               </a>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-8 items-center justify-between sm:flex">
-          <div className="mt-4 sm:mt-0">
-            &copy; 2022 Float UI All rights reserved.
-          </div>
-          <div className="mt-6 sm:mt-0">
-          <ul className="flex items-center space-x-4">
-          <li className="w-10 h-10 border rounded-full flex items-center justify-center bg-white shadow shadow-white">
-            <a href="javascript:void()">
-              <AiFillTwitterCircle className="w-6 h-6 text-blue-400" />
-            </a>
-          </li>
+            ))}
+          </nav>
+        </div>
 
-          <li className="w-10 h-10 border rounded-full flex items-center justify-center bg-white shadow shadow-white">
-            <a href="javascript:void()">
-              <AiFillFacebook className="w-6 h-6 text-blue-700" />
-            </a>
-          </li>
+        {/* Bottom Section: Additional Links */}
+        <div className="mt-8 border-t border-gray-200 pt-4">
+          <div className="flex flex-col md:flex-row items-center justify-between">
+            {/* Navigation Links */}
+            <ul className="flex flex-wrap justify-center md:justify-start space-x-6">
+              <li>
+                <a
+                  href="#home"
+                  className="hover:text-primary transition-colors duration-200"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#features"
+                  className="hover:text-primary transition-colors duration-200"
+                >
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  className="hover:text-primary transition-colors duration-200"
+                >
+                  Gallery
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#faq"
+                  className="hover:text-primary transition-colors duration-200"
+                >
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  className="hover:text-primary transition-colors duration-200"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
 
-          <li className="w-10 h-10 border rounded-full flex items-center justify-center bg-white shadow shadow-white">
-            <a href="javascript:void()">
-              <AiFillInstagram className="w-6 h-6 text-blue-500" />
-            </a>
-          </li>
-
-          <li className="w-10 h-10 border rounded-full flex items-center justify-center bg-white shadow shadow-white">
-            <a href="javascript:void()">
-              <AiFillLinkedin className="w-6 h-6 text-red-600" />
-            </a>
-          </li>
-        </ul>
+            {/* Additional Information */}
+            <p className="mt-4 md:mt-0 text-sm text-gray-400 text-center md:text-left">
+              Built with ❤️ by the Relief Tracker Team
+            </p>
           </div>
         </div>
-        <style jsx>{`
-          .svg-icon path,
-          .svg-icon polygon,
-          .svg-icon rect {
-            fill: currentColor;
-          }
-        `}</style>
-      </footer>
-    </div>
+      </div>
+    </footer>
   );
 };
+
 export default Footer;

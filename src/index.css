@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 .active {
-  background-color: #1355a0 !important;
-  font-weight: 700 !important;
+  color: #1355a0 !important;
+  background-color: white !important;
+  /* font-weight: 700 !important; */
   border-radius: 0 !important;
   border-radius: 6px !important;
 }
@@ -27,4 +28,12 @@
   background-color: #1355a0; /* Replace with your hex code */
   border-radius: 20px;
   border: 3px solid #ffffff; /* Replace with your hex code */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo{
+   font-family: "Monoton", sans-serif;
 }

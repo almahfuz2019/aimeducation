@@ -1,24 +1,43 @@
-const LeandingBanner = () => {
+// Import necessary modules and components
+import React from "react";
+
+/**
+ * LandingBanner Component
+ *
+ * This component displays a visually appealing hero section with a background image,
+ * a prominent heading, descriptive text, and a call-to-action button. It is designed
+ * to be fully responsive across various device sizes.
+ */
+const LandingBanner = () => {
   return (
     <div
-      className="hero min-h-screen "
+      className="hero min-h-screen bg-cover bg-center relative"
       style={{
         backgroundImage:
-          "url(https://static.independent.co.uk/2021/08/10/15/iStock-1271579758.jpg)",
+          "url(https://images.pexels.com/photos/14823611/pexels-photo-14823611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)",
       }}
     >
-      <div className="hero-overlay "></div>
-      <div className="hero-content text-center text-neutral-content">
-        <div className="md:max-w-4xl">
-          <h1 className="mb-5 text-4xl  md:text-6xl font-bold text-white uppercase">
-            Provident cupiditate volup
+      {/* Overlay to enhance text readability */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
+
+      {/* Hero Content */}
+      <div className="hero-content text-center text-neutral-content relative z-10 px-4">
+        <div className="max-w-4xl">
+          {/* Heading */}
+          <h1 className="mb-5 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white uppercase">
+            Flood Management System
           </h1>
-          <p className="mb-5 text-lg text-white ">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.In deleniti eaque aut repudiandae et a id nisi
+
+          {/* Description */}
+          <p className="mb-5 text-base sm:text-lg md:text-xl text-white">
+            Welcome to the Flood Management System. Here you can track real-time
+            updates on flood-affected areas, collaborate with government
+            agencies, NGOs, and weather services, and access support for your
+            area.
           </p>
-          <button className="btn btn-primary px-12 border-2 font-bold border-white text-white z-10 opacity-100">
+
+          {/* Call-to-Action Button */}
+          <button className="btn btn-primary px-8 sm:px-10 md:px-12 border-2 font-bold border-white text-white z-10 opacity-100 hover:bg-primary-focus transition duration-300">
             Get Started
           </button>
         </div>
@@ -26,4 +45,5 @@ const LeandingBanner = () => {
     </div>
   );
 };
-export default LeandingBanner;
+
+export default LandingBanner;
